@@ -1,6 +1,6 @@
 import java.awt.event.ActionListener;
 
-public class KryptController {
+/*public class KryptController {
         private GUIDesign view;
 
         public KryptController(GUIDesign view;) {
@@ -11,3 +11,5 @@ public class KryptController {
 
         }
 }
+
+*/

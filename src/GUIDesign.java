@@ -1,3 +1,9 @@
+/*
+Skapad av David Persson 2019-01-18
+Sprint 2
+GUI till krypteringsprogrammet
+ */
+
 import javax.swing.*;
 
 public class GUIDesign extends JFrame{
@@ -26,6 +32,5 @@ public class GUIDesign extends JFrame{
     private JButton selectKeyButton;
 }
 
-o
 
 

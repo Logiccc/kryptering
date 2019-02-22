@@ -7,11 +7,9 @@ public class krypt {
     public static void main(String[] args) throws IOException {
         String filnamn;
         String msg = null;
-        String key = "Katt";
+        String key = "Katt"; //Nyckeln till krypteringen
         FileReader fr = null;
-        /** Jag förstår ej hur man ska göra
 
-         */
         filnamn = JOptionPane.showInputDialog(null, "Ange filnamn");
         /*FileWriter fw = null;
         try {
@@ -22,9 +20,6 @@ public class krypt {
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter utFil = new PrintWriter(bw);*/
 
-        /* Dont be arngy :-)
-        XD
-        */
         try {
             fr = new FileReader(filnamn);
         } catch (FileNotFoundException e) {
