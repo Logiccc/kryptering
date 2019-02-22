@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class GUIDesign {
+public class GUIDesign extends JFrame{
     public static void main(String[] args) {
         JFrame frame = new JFrame("GUIDesign");
         frame.setContentPane(new GUIDesign().GUI);
@@ -10,6 +10,12 @@ public class GUIDesign {
     }
 
     private JPanel GUI;
+    private JTextArea textArea1;
+    private JTextArea textArea2;
+    private JButton krypteraButton;
+    private JButton dekrypteraButton;
+    private JButton button3;
+    private JButton button4;
     private JTextPane textPane1;
     private JTextPane textPane2;
     private JButton openButton;
@@ -19,5 +25,7 @@ public class GUIDesign {
     private JButton helpButton;
     private JButton selectKeyButton;
 }
+
+o
 
 
